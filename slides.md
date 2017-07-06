@@ -6,22 +6,29 @@ author:
 output: index.html
 
 --
-
 # The Two Unittest Boxes
 ## Whitebox vs Blackbox
 
 --
+### WhiteBox Unittesting
 
+Tests that know and make assertions on the internals of a box.
+
+--
 ### WhiteBox Testing
 
 Tests that touch anything they want.
 
 Characteristics:
- * Specific component being tested is not clear.
- * Makes assertions on multiple layers of the app.
+ * The component being tested is not clear.
+ * Makes assertions on multiple layers.
 
 --
+### BlackBox Unittesting
 
+The tests do not know the internals of the box being tested.
+
+--
 ### BlackBox Testing
 
 Tests that touch only a single layer.
@@ -36,3 +43,11 @@ Characteristics:
 
 ---
 
+A layer is a specific component of the application.
+
+#### Example Components:
+ * API
+ * File System
+ * ORM Model
+ * ORM Manager
+ * 
